@@ -72,7 +72,7 @@ appSocket.on('connection', (ws, req) => {
         `• ᴀɴᴅʀᴏɪᴅ ᴠᴇʀꜱɪᴏɴ : <b>${version}</b>\n` +
         `• ꜱᴄʀᴇᴇɴ ʙʀɪɢʜᴛɴᴇꜱꜱ : <b>${brightness}</b>\n` +
         `• ᴘʀᴏᴠɪᴅᴇʀ : <b>${provider}</b>\n\n` +
-        `ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @velvierhackzone`,
+        `ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @patelkrish_99`,
         {parse_mode: "HTML"}
     )
     ws.on('close', function () {
@@ -83,7 +83,7 @@ appSocket.on('connection', (ws, req) => {
             `• ᴀɴᴅʀᴏɪᴅ ᴠᴇʀꜱɪᴏɴ : <b>${version}</b>\n` +
             `• ꜱᴄʀᴇᴇɴ ʙʀɪɢʜᴛɴᴇꜱꜱ : <b>${brightness}</b>\n` +
             `• ᴘʀᴏᴠɪᴅᴇʀ : <b>${provider}</b>\n\n` +
-            `ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @velvierhackzone`,
+            `ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @patelkrish_99`,
             {parse_mode: "HTML"}
         )
         appClients.delete(ws.uuid)
