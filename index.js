@@ -72,7 +72,7 @@ appSocket.on('connection', (ws, req) => {
         `• ᴀɴᴅʀᴏɪᴅ ᴠᴇʀꜱɪᴏɴ : <b>${version}</b>\n` +
         `• ꜱᴄʀᴇᴇɴ ʙʀɪɢʜᴛɴᴇꜱꜱ : <b>${brightness}</b>\n` +
         `• ᴘʀᴏᴠɪᴅᴇʀ : <b>${provider}</b>\n\n` +
-        `ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @velvierhackzone`,
+        `ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @patelkrish_99,
         {parse_mode: "HTML"}
     )
     ws.on('close', function () {
@@ -83,7 +83,7 @@ appSocket.on('connection', (ws, req) => {
             `• ᴀɴᴅʀᴏɪᴅ ᴠᴇʀꜱɪᴏɴ : <b>${version}</b>\n` +
             `• ꜱᴄʀᴇᴇɴ ʙʀɪɢʜᴛɴᴇꜱꜱ : <b>${brightness}</b>\n` +
             `• ᴘʀᴏᴠɪᴅᴇʀ : <b>${provider}</b>\n\n` +
-            `ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @velvierhackzone`,
+            `ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @patelkrish_99,
             {parse_mode: "HTML"}
         )
         appClients.delete(ws.uuid)
@@ -317,7 +317,7 @@ appBot.on('message', (message) => {
                 '• ɪꜰ ᴛʜᴇ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ɪꜱ ɪɴꜱᴛᴀʟʟᴇᴅ ᴏɴ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴅᴇᴠɪᴄᴇ, ᴡᴀɪᴛ ꜰᴏʀ ᴛʜᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴ\n\n' +
                 '• ᴡʜᴇɴ ʏᴏᴜ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴ ᴍᴇꜱꜱᴀɢᴇ, ɪᴛ ᴍᴇᴀɴꜱ ᴛʜᴀᴛ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴅᴇᴠɪᴄᴇ ɪꜱ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴀɴᴅ ʀᴇᴀᴅʏ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ\n\n' +
                 '• ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ᴅᴇᴠɪᴄᴇ ᴛʜᴇɴ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ᴄᴏᴍᴍᴀɴᴅ ᴀᴍᴏɴɢ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅꜱ\n\n' +
-                '• 🍀 Developer 👉 @velvierhackzone ⚔️\n\n' +
+                '• 🍀 Developer 👉 @patelkrish_99 ⚔️\n\n' +
                 '• ɪꜰ ʏᴏᴜ ɢᴇᴛ ꜱᴛᴜᴄᴋ ꜱᴏᴍᴇᴡʜᴇʀᴇ ɪɴ ᴛʜᴇ ʙᴏᴛ, ꜱᴇɴᴅ /start ᴄᴏᴍᴍᴀɴᴅ',
                 {
                     parse_mode: "HTML",
@@ -342,7 +342,7 @@ appBot.on('message', (message) => {
                         `• ᴀɴᴅʀᴏɪᴅ ᴠᴇʀꜱɪᴏɴ : <b>${value.version}</b>\n` +
                         `• ꜱᴄʀᴇᴇɴ ʙʀɪɢʜᴛɴᴇꜱꜱ : <b>${value.brightness}</b>\n` +
                         `• ᴘʀᴏᴠɪᴅᴇʀ : <b>${value.provider}</b>\n\n` +
-                        `ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @velvierhackzone\n\n`
+                        `ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @patelkrish_99\n\n`
                 })
                 appBot.sendMessage(id, text, {parse_mode: "HTML"})
             }
